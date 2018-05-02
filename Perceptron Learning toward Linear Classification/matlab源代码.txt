@@ -1,7 +1,7 @@
 close all;
 % 数据加载
-x1 = load('F:\学习文件\航线 大三下\模式识别与机器学习\15031145崔雪建Experiment 1\x1.txt');
-x2 = load('F:\学习文件\航线 大三下\模式识别与机器学习\15031145崔雪建Experiment 1\x2.txt');
+x1 = load('Experiment 1\x1.txt');
+x2 = load('Experiment 1\x2.txt');
 for i = 1:100
     r1(i) = x1(i,1);
     r2(i) = x1(i,2);
